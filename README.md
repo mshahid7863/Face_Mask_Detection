@@ -4,10 +4,57 @@
 #### Dataset : https://www.kaggle.com/datasets/shahidd/face-mask-ds
 #### Smaple Datase :https://www.kaggle.com/datasets/shahidd/samples
 
-# Problem Statment
-With the ongoing global health challenges, particularly the COVID-19 pandemic, ensuring the proper use of face masks in public places has become crucial. Automating the detection of face masks can aid in monitoring and enforcing safety measures, thereby helping to curb the spread of the virus.Develop a machine learning model capable of accurately predicting whether individuals in images are wearing face masks. The model should classify images into one of two categories: 'mask', 'no mask'
-using mask with OpenCV and TensorFlow. Using simple CNN or model provided by TensorFlow as MobileNetV2, VGG16,Resnet50 
-Developed a face mask detection system using deep learning techniques to identify individuals wearing masks and  not wearing masks,  Utilized Convolutional Neural Networks (CNNs) with TensorFlow Resnet50, VGG16,Transfer learning and  Keras to train the model on a diverse dataset. Implemented data preprocessing, augmentation, and real-time image processing to enhance model accuracy and performance. Successfully integrated the system into a live video stream for real-time monitoring, and deployed using Gardio farmework for web ui achieving a detection accuracy of 95%. 
+
+### Objective:
+The project aims to develop a reliable and efficient face mask detection system to help curb the spread of COVID-19 by ensuring compliance with mask-wearing guidelines. The system uses deep learning models for accurate detection and is deployed both as a web application using Gradio and as a real-time video stream.
+
+## Models Used:
+
+1.VGG16:
+
+A pre-trained convolutional neural network (CNN) known for its deep architecture and effectiveness in image classification tasks.
+Fine-tuned on a custom dataset of face images with and without masks. 
+
+2.ResNet50:
+
+Another pre-trained CNN that uses residual learning to ease the training of very deep networks.
+Fine-tuned similarly to VGG16 for enhanced mask detection performance.
+Custom CNN Model:
+
+3.A CNN designed specifically for this task, optimized for speed and accuracy in detecting masks in various conditions.
+
+### Deployment:
+
+1.Gradio Web Interface:
+
+An easy-to-use web interface allowing users to upload images for mask detection.
+Users receive instant feedback on whether the person in the image is wearing a mask or not.
+
+2.Live Video Deployment:
+
+Utilizes OpenCV to capture live video from a webcam.
+Real-time detection of faces and mask status, with bounding boxes and labels displayed on the video feed.
+Achieves an accuracy rate of 95%, making it highly reliable for practical use.
+
+Accuracy:
+
+The models were trained and tested on a diverse dataset to ensure robustness and high accuracy.
+
+The combined system achieves 95% accuracy in detecting whether individuals are wearing masks, demonstrating its effectiveness in real-world scenarios.
+
+Key Features:
+
+* High Accuracy: Achieves 95% accuracy using advanced deep learning models.
+
+* Real-Time Detection: Capable of processing live video streams to detect masks in real-time.
+
+* User-Friendly Interface: Deployed using Gradio for easy interaction and accessibility.
+
+* Versatile: Combines the strengths of VGG16, ResNet50, and a custom CNN to ensure robust performance across different environments.
+
+Conclusion:
+
+This project provides a comprehensive solution for face mask detection using state-of-the-art deep learning techniques. By leveraging powerful models and deploying them through both web interfaces and live video streams, it offers a practical tool to assist in the fight against COVID-19, ensuring public health and safety with high accuracy and reliability.
 
 
 ## Output
