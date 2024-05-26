@@ -1,4 +1,4 @@
-<img align="center" alt="coding" width="4800" height="350" src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_585776828_390554.jpg" height="30" width="40">
+<img align="center" alt="coding" width="4800" height="350" src="https://github.com/mshahid7863/Face_Mask_Detection/blob/main/GUI.png" height="30" width="40">
 
 # Face_Mask_Detection
 #### Dataset : https://www.kaggle.com/datasets/shahidd/face-mask-ds
