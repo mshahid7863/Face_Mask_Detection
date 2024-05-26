@@ -1,4 +1,8 @@
+
+
 # Face_Mask_Detection
+#### Dataset : https://www.kaggle.com/datasets/shahidd/face-mask-ds
+#### Smaple Datase :https://www.kaggle.com/datasets/shahidd/samples
 
 # Problem Statment
 With the ongoing global health challenges, particularly the COVID-19 pandemic, ensuring the proper use of face masks in public places has become crucial. Automating the detection of face masks can aid in monitoring and enforcing safety measures, thereby helping to curb the spread of the virus.Develop a machine learning model capable of accurately predicting whether individuals in images are wearing face masks. The model should classify images into one of two categories: 'mask', 'no mask'
