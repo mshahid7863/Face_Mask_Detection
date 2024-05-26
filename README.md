@@ -11,4 +11,6 @@ Developed a face mask detection system using deep learning techniques to identif
 
 
 ## Output
-<img align="center" alt="coding" width="2000" height="350" src="https://github.com/mshahid7863/Face_Mask_Detection/blob/main/GUI.png" height="10" width="20">
+<img align="left" alt="coding" width="600"  src="https://github.com/mshahid7863/Face_Mask_Detection/blob/main/GUI.png" >  
+
+<img align="right" alt="coding" width="600"  src="https://github.com/mshahid7863/Face_Mask_Detection/blob/main/GUI.png" >
